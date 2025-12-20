@@ -1,0 +1,14 @@
+D:\pratik.net\03demo\bin\Debug\net8.0\03demo.exe
+D:\pratik.net\03demo\bin\Debug\net8.0\03demo.deps.json
+D:\pratik.net\03demo\bin\Debug\net8.0\03demo.runtimeconfig.json
+D:\pratik.net\03demo\bin\Debug\net8.0\03demo.dll
+D:\pratik.net\03demo\bin\Debug\net8.0\03demo.pdb
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.AssemblyInfoInputs.cache
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.AssemblyInfo.cs
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.csproj.CoreCompileInputs.cache
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.dll
+D:\pratik.net\03demo\obj\Debug\net8.0\refint\03demo.dll
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.pdb
+D:\pratik.net\03demo\obj\Debug\net8.0\03demo.genruntimeconfig.cache
+D:\pratik.net\03demo\obj\Debug\net8.0\ref\03demo.dll

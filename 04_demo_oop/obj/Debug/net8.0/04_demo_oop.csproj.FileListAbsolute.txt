@@ -1,0 +1,14 @@
+D:\pratik.net\04_demo_oop\bin\Debug\net8.0\04_demo_oop.exe
+D:\pratik.net\04_demo_oop\bin\Debug\net8.0\04_demo_oop.deps.json
+D:\pratik.net\04_demo_oop\bin\Debug\net8.0\04_demo_oop.runtimeconfig.json
+D:\pratik.net\04_demo_oop\bin\Debug\net8.0\04_demo_oop.dll
+D:\pratik.net\04_demo_oop\bin\Debug\net8.0\04_demo_oop.pdb
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.AssemblyInfoInputs.cache
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.AssemblyInfo.cs
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.csproj.CoreCompileInputs.cache
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.dll
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\refint\04_demo_oop.dll
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.pdb
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\04_demo_oop.genruntimeconfig.cache
+D:\pratik.net\04_demo_oop\obj\Debug\net8.0\ref\04_demo_oop.dll

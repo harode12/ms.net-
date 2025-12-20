@@ -1,0 +1,14 @@
+D:\pratik.net\Solution1\FirstC#\bin\Debug\net8.0\FirstC#.exe
+D:\pratik.net\Solution1\FirstC#\bin\Debug\net8.0\FirstC#.deps.json
+D:\pratik.net\Solution1\FirstC#\bin\Debug\net8.0\FirstC#.runtimeconfig.json
+D:\pratik.net\Solution1\FirstC#\bin\Debug\net8.0\FirstC#.dll
+D:\pratik.net\Solution1\FirstC#\bin\Debug\net8.0\FirstC#.pdb
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.AssemblyInfoInputs.cache
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.AssemblyInfo.cs
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.csproj.CoreCompileInputs.cache
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.dll
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\refint\FirstC#.dll
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.pdb
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\FirstC#.genruntimeconfig.cache
+D:\pratik.net\Solution1\FirstC#\obj\Debug\net8.0\ref\FirstC#.dll

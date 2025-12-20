@@ -1,0 +1,14 @@
+D:\pratik.net\Day2Practice\02_assign_net_practice\bin\Debug\net8.0\02_assign_net_practice.exe
+D:\pratik.net\Day2Practice\02_assign_net_practice\bin\Debug\net8.0\02_assign_net_practice.deps.json
+D:\pratik.net\Day2Practice\02_assign_net_practice\bin\Debug\net8.0\02_assign_net_practice.runtimeconfig.json
+D:\pratik.net\Day2Practice\02_assign_net_practice\bin\Debug\net8.0\02_assign_net_practice.dll
+D:\pratik.net\Day2Practice\02_assign_net_practice\bin\Debug\net8.0\02_assign_net_practice.pdb
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.AssemblyInfoInputs.cache
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.AssemblyInfo.cs
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.csproj.CoreCompileInputs.cache
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.dll
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\refint\02_assign_net_practice.dll
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.pdb
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\02_assign_net_practice.genruntimeconfig.cache
+D:\pratik.net\Day2Practice\02_assign_net_practice\obj\Debug\net8.0\ref\02_assign_net_practice.dll
