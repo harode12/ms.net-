@@ -8,90 +8,96 @@ namespace _28Demo_Serialization
     {
         static void Main(string[] args)
         {
-            string filePath = @"D:\IET_Dec_25_Batch\CSharpDemos\28Demo_Serialization\Files\data.xml";
-            
-            string filePath1 = @"D:\IET_Dec_25_Batch\CSharpDemos\28Demo_Serialization\Files\data.json";
+            //string filePath = @"D:\IET_Dec_25_Batch\CSharpDemos\28Demo_Serialization\Files\data.xml";
+
+            //string filePath1 = @"D:\IET_Dec_25_Batch\CSharpDemos\28Demo_Serialization\Files\data.json";
+            string filePath = @"D:\pratik.net\DAY BY DAY NOTES\day 6\IET_Dec_2025_Batch-master (4)\IET_Dec_2025_Batch-master\CSharpDemos\26Demo_FileIO\Files\data.xml";
+
+            string filePath1 = @"D:\pratik.net\DAY BY DAY NOTES\day 6\IET_Dec_2025_Batch-master (4)\IET_Dec_2025_Batch-master\CSharpDemos\26Demo_FileIO\Files\data.json";
+
 
             Emp emp = new Emp();
             emp.Id = 101;
-            emp.Name = "John Connor";
-            emp.Address = "Earth";
+            emp.Name = "elon musk";
+            emp.Address = "Mars";
 
+
+            XmlSerializer xr = new XmlSerializer(typeof(Emp));
             //Type type = emp.GetType();
             //XmlSerializer xr = new XmlSerializer(type);
 
             #region XML Serialization 
-            //FileStream fs = null;
+            FileStream fs = null;
 
-            //if (File.Exists(filePath))
-            //{
-            //    fs = new FileStream(filePath, FileMode.Append, FileAccess.Write);
-            //}
-            //else
-            //{
-            //    fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write);
-            //}
+            if (File.Exists(filePath))
+            {
+                fs = new FileStream(filePath, FileMode.Append, FileAccess.Write);
+            }
+            else
+            {
+                fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write);
+            }
 
             //XmlSerializer xr = new XmlSerializer(typeof(Emp));
-            //xr.Serialize(fs, emp);
-            //fs.Close();
-            //Console.WriteLine("Done"); 
+            xr.Serialize(fs, emp);
+            fs.Close();
+            Console.WriteLine("Done");
             #endregion
 
             #region XML DeSerialization
-            //FileStream fs = null;
+            FileStream fsl = null;
 
-            //if (File.Exists(filePath))
-            //{
-            //    fs = new FileStream(filePath, FileMode.Open, FileAccess.Read);
-            //}
-            //else
-            //{
-            //    Console.WriteLine("File does not exist!");
-            //}
+            if (File.Exists(filePath))
+            {
+                fsl = new FileStream(filePath, FileMode.Open, FileAccess.Read);
+            }
+            else
+            {
+                Console.WriteLine("File does not exist!");
+            }
 
-            //XmlSerializer xr = new XmlSerializer(typeof(Emp));
-            //Emp empData = xr.Deserialize(fs) as Emp;
-            //fs.Close();
-            //Console.WriteLine($"Id = {empData.Id}, Name = {empData.Name}, Address= {empData.Address}");
+          //  XmlSerializer xr = new XmlSerializer(typeof(Emp));
+            Emp empData = xr.Deserialize(fsl) as Emp;
+            fsl.Close();
+            Console.WriteLine($"Id = {empData.Id}, Name = {empData.Name}, Address= {empData.Address}");
             #endregion
 
             #region JSON Serialization 
 
-            //FileStream fs = null;
+            //FileStream js = null;
 
             //if (File.Exists(filePath1))
             //{
-            //    fs = new FileStream(filePath1, FileMode.Append, FileAccess.Write);
+            //    js = new FileStream(filePath1, FileMode.Append, FileAccess.Write);
             //}
             //else
             //{
-            //    fs = new FileStream(filePath1, FileMode.OpenOrCreate, FileAccess.Write);
+            //    js = new FileStream(filePath1, FileMode.OpenOrCreate, FileAccess.Write);
             //}
 
-            //JsonSerializer.Serialize<Emp>(fs, emp);
-            //fs.Close();
-            //Console.WriteLine("Done"); 
+            //JsonSerializer.Serialize<Emp>(js, emp);
+            //js.Close();
+            //Console.WriteLine("Done");
             #endregion
 
             #region JSON DeSerialization
-            //FileStream fs = null;
+            //FileStream jsd = null;
 
             //if (File.Exists(filePath1))
             //{
-            //    fs = new FileStream(filePath1, FileMode.Open, FileAccess.Read);
+            //    jsd = new FileStream(filePath1, FileMode.Open, FileAccess.Read);
             //}
             //else
             //{
             //    Console.WriteLine("File does not exist!");
             //}
 
-            //Emp empData = JsonSerializer.Deserialize<Emp>(fs);
-            //fs.Close();
+            //Emp empData = JsonSerializer.Deserialize<Emp>(jsd);
+            //jsd.Close();
             //Console.WriteLine($"Id = {empData.Id}, Name = {empData.Name}, Address= {empData.Address}");
             #endregion
 
-            
+
         }
     }
     public class Emp
