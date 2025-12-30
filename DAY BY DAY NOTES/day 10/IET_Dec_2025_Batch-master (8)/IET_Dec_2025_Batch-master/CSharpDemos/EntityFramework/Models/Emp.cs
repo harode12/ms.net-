@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EntityFramework.Models
+{ // POCO : Code - First Approach
+    [Table("Emp")] // db table name 
+    public class Emp
+    {
+        [Key] // primary key + identity(1,1)
+        [Column("Id", TypeName = "int")]
+        public int Id { get; set; }
+
+        [Column("Name", TypeName = "varchar(50)")]
+        public string? Name { get; set; }
+
+        [Column("Address", TypeName = "varchar(50)")]
+        public string? Address { get; set; }
+    }
+}
